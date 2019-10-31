@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import headerLogo from '../static/images/VT_logo.png'
 
 class Landing extends Component {
   logOut(e) {
@@ -10,7 +11,7 @@ class Landing extends Component {
 
   render() {
     const loginRegLink = (
-      <ul className="navbar-nav">
+      <>
         <li className="nav-item">
           <Link to="/login" className="nav-link">
             Login
@@ -21,11 +22,11 @@ class Landing extends Component {
             Register
           </Link>
         </li>
-      </ul>
+      </>
     )
 
     const userLink = (
-      <ul className="navbar-nav">
+      <>
         <li className="nav-item">
           <Link to="/profile" className="nav-link">
             User
@@ -36,11 +37,13 @@ class Landing extends Component {
             Logout
           </a>
         </li>
-      </ul>
+      </>
     )
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
+      <div className="container">
+      <a class="navbar-brand" href="/"><img alt="logo" src={headerLogo} height="40px"></img></a>
         <button
           className="navbar-toggler"
           type="button"
@@ -53,19 +56,17 @@ class Landing extends Component {
           <span className="navbar-toggler-icon" />
         </button>
 
-        <div
-          className="collapse navbar-collapse justify-content-md-center"
-          id="navbarsExample10"
-        >
+        <div className="collapse navbar-collapse justify-content-end " id="navbarsExample10">
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
+            {localStorage.usertoken ? userLink : loginRegLink}
           </ul>
-          {localStorage.usertoken ? userLink : loginRegLink}
         </div>
+      </div>
       </nav>
     )
   }
