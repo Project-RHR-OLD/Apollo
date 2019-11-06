@@ -56,7 +56,7 @@ cd back-end
 ```
 3. Install Python dependencies.
 ```
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 4. Running the API server.
 ```
@@ -82,3 +82,33 @@ npm run start
 ```
 
 ## Contributing
+
+0. Ensure the repository is cloned and you can change directory (cd) where it is located.
+```
+git clone https://github.com/Project-RHR/Apollo.git
+cd Apollo
+```
+1. Pull the latest version from GitHub
+```
+git pull
+```
+2. Create a branch for your changes. The name of the branch should be relevant to the work/changes being done.
+```
+git checkout -b "Bug-Fix"
+```
+3. Add changes to your branch via git add command. "." character can be replace with a specific file if you don't want to add all changed files.
+```
+git add .
+```
+4. Commit changes with a relevant message.
+```
+git commit -m "Bug-Fix: Fixed issue with login."
+```
+5. Push changes to GitHub
+```
+git push origin HEAD
+```
+6. Create Pull Request
+7. Send pull request to CECS 491A Discord Group Chat
+8. Wait for code review and someone else to approve your changes.
+9. Merge changes to master branch.
