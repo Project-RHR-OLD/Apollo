@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import jwt_decode from 'jwt-decode'
+import david from '../static/images/david.PNG'
 
 class Profile extends Component {
   constructor() {
@@ -22,18 +23,30 @@ class Profile extends Component {
     })
   }
 
+  imageStyling = {
+    border: '2px solid black'
+  }
+
   render() {
     return (
       <div className="container">
        <br/>
        <br/>
           <div className="col-sm-8 mx-auto">
-            <h1 className="text-center">PROFILE</h1>
+            <h1 className="text-center">{this.state.first_name}'s Profile</h1>
           </div>
+
+          <br/>
+          <center>
+            <img src={david} alt="david" height="150px" style={this.imageStyling}></img><br/><br/>
+           <a href="/">+ Upload a new profile picture!</a>
+          </center>
+
+          <br/>
           <table className="table col-md-6 mx-auto">
             <tbody>
               <tr>
-                <td>Fist Name</td>
+                <td>First Name</td>
                 <td>{this.state.first_name}</td>
               </tr>
               <tr>
