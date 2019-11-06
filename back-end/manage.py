@@ -7,7 +7,7 @@ from flask_jwt_extended import JWTManager
 from flask_jwt_extended import (create_access_token)
 
 app = Flask(__name__)
-
+#Hello
 app.config['MYSQL_HOST'] = '34.83.51.125'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '#CECS445Staging'
