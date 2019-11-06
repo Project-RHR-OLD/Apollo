@@ -133,13 +133,13 @@ git push origin HEAD
 
 2. Forgot Password
 
-3. User selection UI for body part selector
+3. User selection UI for body part selection
 
 4. User Profile
 
 5. Create workout routines
 
-6. Educate users on exercises they can perform
+6. Educate users on exercises they can perform 
 
 7. Allow users to follow other members accounts to see their workouts
 
@@ -147,7 +147,7 @@ git push origin HEAD
 
 9. Alternative options for members going through physical rehabilitation
 
-10. Admin Panel
+10. Admin Panel 
 
 11. Workout search engine
 
