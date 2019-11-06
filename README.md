@@ -15,7 +15,6 @@ Screenshots go here
 ### Back-end
 * [Python 3.7.x](https://www.python.org/downloads/)
 * [Pip](https://pip.pypa.io/en/stable/installing/)
-* [Microsoft Visual C++ for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266)
 
 ### Front-end
 * [Node.js](https://nodejs.org/en/)
@@ -37,11 +36,14 @@ git clone https://github.com/Project-RHR/Apollo.git
 ```
 python -V
 ```
-
+2. Verify Node.js is installed.
+```
+npm -version
+```
 
 ## Running Application
 
-Open two different terminals, one for the back-end and the other for the front-end.
+Open two different terminals, one for the back-end and the other for the front-end. **Make sure both applications are running simultaneously.**
 
 ### Back-end
 1. Change directory (cd) into the project folder.
@@ -78,3 +80,5 @@ npm install
 ```
 npm run start
 ```
+
+## Contributing
