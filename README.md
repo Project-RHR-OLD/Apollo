@@ -119,13 +119,13 @@ git push origin HEAD
 ## Support From Developers
 
 ### Contact Information
-* System Architect [Bryan Rojas](bryanrojascs@gmail.com)
+* System Architect: [Bryan Rojas](mailto:bryanrojascs@gmail.com)
 
-* Scrum Master [Hector Mendoza](mendozahector555@gmail.com)
+* Scrum Master: [Hector Mendoza](mailto:mendozahector555@gmail.com)
 
-* Documenation lead [David Ibarra](iDavid9764@gmail.com)
+* Documenation lead: [David Ibarra](mailto:iDavid9764@gmail.com)
 
-* Team lead[Malik Coleman](malikai711@gmail.com)
+* Team lead: [Malik Coleman](mailto:malikai711@gmail.com)
 
 ## Application Features
 
