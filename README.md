@@ -109,6 +109,52 @@ git commit -m "Bug-Fix: Fixed issue with login."
 git push origin HEAD
 ```
 6. Create Pull Request
+
 7. Send pull request to CECS 491A Discord Group Chat
+
 8. Wait for code review and someone else to approve your changes.
+
 9. Merge changes to master branch.
+
+## Support From Developers
+
+### Contact Information
+* System Architect [Bryan Rojas](bryanrojascs@gmail.com)
+
+* Scrum Master [Hector Mendoza](mendozahector555@gmail.com)
+
+* Documenation lead [David Ibarra](iDavid9764@gmail.com)
+
+* Team lead[Malik Coleman](malikai711@gmail.com)
+
+## Application Features
+
+1. Login
+
+2. Forgot Password
+
+3. User selection UI for body part selection
+
+4. User Profile
+
+5. Create workout routines
+
+6. Educate users on exercises they can perform 
+
+7. Allow users to follow other members accounts to see their workouts
+
+8. Keep track of fitness goals
+
+9. Alternative options for members going through physical rehabilitation
+
+10. Admin Panel 
+
+11. Workout search engine
+
+12. Meal planner
+
+13. Weight loss program
+
+14. Option to log macros derived from food
+
+15. Food logger to keep track of meals
