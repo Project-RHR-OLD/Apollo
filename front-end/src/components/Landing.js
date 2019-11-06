@@ -17,7 +17,7 @@ class Landing extends Component {
               <hr/>
               <br/>
               <center>
-                <p>Our web application is intended to make traveling much easier. Our goal and vision is to allow our users to have access to popular tourist spots, great dining options, and awesome things to do!</p>
+                <p>BiteBody.io is a full-stack web application that functions as a fitness initiative for people all experience levels, body types, ages, and lifestyle.</p>
               </center>
             </div>
 
