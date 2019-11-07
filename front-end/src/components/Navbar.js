@@ -29,16 +29,16 @@ class Landing extends Component {
       <>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
           <div class="dropdown-menu">
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Pick yo body part</a>
-            <a class="dropdown-item" href="#">Search Workouts</a>
-            <a class="dropdown-item" href="#">Create Workouts</a>
-            <a class="dropdown-item" href="#">Workout Plans</a>
+            <a class="dropdown-item" href="/">Pick yo body part</a>
+            <a class="dropdown-item" href="/">Search Workouts</a>
+            <a class="dropdown-item" href="/">Create Workouts</a>
+            <a class="dropdown-item" href="/">Workout Plans</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Meal Planner</a>
-            <a class="dropdown-item" href="#">Calorie Calculator</a>
+            <a class="dropdown-item" href="/">Meal Planner</a>
+            <a class="dropdown-item" href="/">Calorie Calculator</a>
           </div>
         </li>
 
