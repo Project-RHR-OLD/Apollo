@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Project-RHR/Apollo/master/front-end/src/static/images/BB_logo.png"/>
+</p>
+
 # BiteBody.io
 
 BiteBody.io is a full-stack web application that functions as a fitness initiative for people all experience levels, body types, ages, and lifestyle.
