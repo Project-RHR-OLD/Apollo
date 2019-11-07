@@ -27,11 +27,21 @@ class Landing extends Component {
 
     const userLink = (
       <>
-        <li className="nav-item">
-          <Link to="/mealplanner" className="nav-link">
-            Meal Planner
-          </Link>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Pick yo body part</a>
+            <a class="dropdown-item" href="#">Search Workouts</a>
+            <a class="dropdown-item" href="#">Create Workouts</a>
+            <a class="dropdown-item" href="#">Workout Plans</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Meal Planner</a>
+            <a class="dropdown-item" href="#">Calorie Calculator</a>
+          </div>
         </li>
+
         <li className="nav-item">
           <Link to="/profile" className="nav-link">
             User
@@ -71,6 +81,14 @@ class Landing extends Component {
             {localStorage.usertoken ? userLink : loginRegLink}
           </ul>
         </div>
+
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search Bitebody/io" aria-label="Search"/>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        
       </div>
       </nav>
     )
