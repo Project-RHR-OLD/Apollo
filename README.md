@@ -147,7 +147,7 @@ git push origin HEAD
 
 8. Keep track of fitness goals
 
-9. Alternative options for members going through physical rehabilitation
+9. Alternative options for members going through physical rehabilitation.
 
 10. Admin Panel 
 
